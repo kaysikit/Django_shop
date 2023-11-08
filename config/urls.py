@@ -24,3 +24,7 @@ urlpatterns = [
     path('', index, name='index'),
     path('products/', internet_shop, name='internet_shop'),
 ]
+
+
+admin.site.site_header = "Панель Администрирования"
+admin.site.index_title = "Интернет магазин"
